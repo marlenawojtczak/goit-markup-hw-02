@@ -15,7 +15,7 @@ body {
 .contact-lst,
 .descr-lst,
 .about-lst,
-.btn-portfolio,
+.btns-lst-portfolio,
 .portfolio-lst {
     list-style: none;
 }
@@ -71,25 +71,32 @@ body {
     font-weight: 700;
     line-height: 1.4;
     letter-spacing: 0.06em;
+    background-color: var(--button-blue);
+    color: #fff;
     cursor: pointer;
     outline: none;
     border: none;
+    border-radius: 4px;
 }
 
-.btn-portfolio button {
+.btns-lst-portfolio button {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
     letter-spacing: 0.03em;
+    background-color: var(--button-grey);
     cursor: pointer;
     outline: none;
     border: none;
+    border-radius: 4px;
+}
+button {
+    font-weight: 900;
 }
 
-.btn-portfolio button:hover,
-.btn-portfolio button:focus,
-.btn-studio:hover,
-.btn-studio:focus {
+.btns-lst-portfolio button:hover,
+.btns-lst-portfolio button:focus {
     background-color: var(--button-blue);
     color: #fff;
 }
@@ -154,6 +161,11 @@ body {
     color: #fff;
     font-style: normal;
 }
+.address .address-lnk {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: underline;
+}
+
 .address a {
     color: rgba(255, 255, 255, 0.6);
 }
